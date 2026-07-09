@@ -83,20 +83,35 @@ h1 {
 }
 
 /* Launch Button */
-.status {
+.contact {
     display: inline-block;
-    padding: 14px 28px;
-    border: 1px solid rgba(255,255,255,.25);
-    border-radius: 999px;
-    background: rgba(255,255,255,.05);
-    color: #ffffff;
-    font-weight: 600;
-    transition: all .25s ease;
+    padding: 18px 32px;
+    border: 1px solid rgba(255,255,255,0.20);
+    border-radius: 14px;
+    background: rgba(255,255,255,0.05);
+    text-align: center;
+    margin-top: 10px;
 }
 
-.status:hover {
-    background: rgba(255,255,255,.12);
-    transform: translateY(-2px);
+.contact span {
+    display: block;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: #9aa4b2;
+    margin-bottom: 8px;
+}
+
+.contact a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.15rem;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.contact a:hover {
+    color: #d4af37;
 }
 
 /* Smooth Fade-in */
