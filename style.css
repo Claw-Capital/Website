@@ -65,7 +65,7 @@ body::after {
     width: 650px;
     max-width: 90%;
     height: auto;
-    margin: 0 auto -20px;
+    margin: 0 auto -10px;
 }
 
 /* =========================
@@ -74,7 +74,7 @@ body::after {
 
 .tag {
     margin-top: -20px;
-    margin-bottom: 40px;
+    margin-bottom: 55px;
     font-size: 0.9rem;
     letter-spacing: 0.28em;
     text-transform: uppercase;
@@ -87,7 +87,7 @@ body::after {
 
 .description {
     max-width: 760px;
-    margin: 0 auto 40px;
+    margin: 0 auto 65px;
     font-size: 1.2rem;
     line-height: 1.8;
     color: #d6dbe2;
