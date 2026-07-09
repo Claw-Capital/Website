@@ -1,6 +1,7 @@
-*{margin:0;padding:0;box-sizing:border-box}body{font-family:Arial,sans-serif;background:#0e1117;color:#fff;display:flex;justify-content:center;align-items:center;min-height:100vh}body:before{content:"";position:fixed;inset:0;background:radial-gradient(circle at top,#1b2745 0%,transparent 45%),radial-gradient(circle at bottom,#202b47 0%,transparent 40%);z-index:-2}body:after{content:"";position:fixed;inset:0;background-image:url("assets/background.svg");opacity:.08;z-index:-1}.hero{padding:40px}.content{max-width:760px;text-align:center}.logo-placeholder{display:inline-block;padding:18px 28px;border:2px solid #fff;border-radius:8px;font-weight:bold;letter-spacing:.2em;margin-bottom:30px}.tag{letter-spacing:.25em;text-transform:uppercase;font-size:.85rem;color:#9aa4b2;margin-bottom:30px}h1{font-size:4rem;margin-bottom:25px}.description{font-size:1.2rem;line-height:1.8;color:#d6dbe2;margin-bottom:50px}.status{display:inline-block;padding:14px 28px;border:1px solid rgba(255,255,255,.25);border-radius:999px;background:rgba(255,255,255,.05)}.logo{
-display:block;
-width:180px;
-height:auto;
-margin:0 auto 30px auto;
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:Arial,sans-serif;background:#0e1117;color:#fff;display:flex;justify-content:center;align-items:center;min-height:100vh}body:before{content:"";position:fixed;inset:0;background:radial-gradient(circle at top,#1b2745 0%,transparent 45%),radial-gradient(circle at bottom,#202b47 0%,transparent 40%);z-index:-2}body:after{content:"";position:fixed;inset:0;background-image:url("assets/background.svg");opacity:.08;z-index:-1}.hero{padding:40px}.content{max-width:760px;text-align:center}.logo-placeholder{display:inline-block;padding:18px 28px;border:2px solid #fff;border-radius:8px;font-weight:bold;letter-spacing:.2em;margin-bottom:30px}.tag{letter-spacing:.25em;text-transform:uppercase;font-size:.85rem;color:#9aa4b2;margin-bottom:30px}h1{font-size:4rem;margin-bottom:25px}.description{font-size:1.2rem;line-height:1.8;color:#d6dbe2;margin-bottom:50px}.status{display:inline-block;padding:14px 28px;border:1px solid rgba(255,255,255,.25);border-radius:999px;background:rgba(255,255,255,.05)}.logo {
+    display: block;
+    width: 450px;
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto 40px auto;
 }
