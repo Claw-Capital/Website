@@ -4,7 +4,10 @@
     box-sizing: border-box;
 }
 
-/* Page */
+/* =========================
+   Page
+========================= */
+
 body {
     font-family: Arial, sans-serif;
     background: #0e1117;
@@ -17,6 +20,7 @@ body {
 }
 
 /* Background Glow */
+
 body::before {
     content: "";
     position: fixed;
@@ -28,6 +32,7 @@ body::before {
 }
 
 /* Background Grid */
+
 body::after {
     content: "";
     position: fixed;
@@ -37,7 +42,10 @@ body::after {
     z-index: -1;
 }
 
-/* Main Container */
+/* =========================
+   Main Content
+========================= */
+
 .hero {
     padding: 40px;
 }
@@ -45,20 +53,27 @@ body::after {
 .content {
     max-width: 850px;
     text-align: center;
+    animation: fadeIn .8s ease;
 }
 
-/* Logo */
+/* =========================
+   Logo
+========================= */
+
 .logo {
     display: block;
     width: 650px;
     max-width: 90%;
     height: auto;
-    margin: 0 auto -25px auto;
+    margin: 0 auto -20px;
 }
 
-/* Tagline */
+/* =========================
+   Tagline
+========================= */
+
 .tag {
-    margin-top: -25px;
+    margin-top: -20px;
     margin-bottom: 40px;
     font-size: 0.9rem;
     letter-spacing: 0.28em;
@@ -66,102 +81,73 @@ body::after {
     color: #9aa4b2;
 }
 
-/* Main Heading */
-h1 {
-    font-size: 4rem;
-    font-weight: 700;
-    margin-bottom: 25px;
-}
+/* =========================
+   Description
+========================= */
 
-/* Description */
 .description {
     max-width: 760px;
-    margin: 0 auto 50px;
+    margin: 0 auto 40px;
     font-size: 1.2rem;
     line-height: 1.8;
     color: #d6dbe2;
 }
 
-/* Launch Button */
-.contact {
-    display: inline-block;
-    padding: 18px 32px;
-    border: 1px solid rgba(255,255,255,0.20);
-    border-radius: 14px;
-    background: rgba(255,255,255,0.05);
-    text-align: center;
-    margin-top: 10px;
-}
-
-.contact span {
-    display: block;
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.15em;
-    color: #9aa4b2;
-    margin-bottom: 8px;
-}
-
-.contact a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 1.15rem;
-    font-weight: 600;
-    transition: color 0.2s ease;
-}
-
-.contact a:hover {
-    color: #d4af37;
-}
+/* =========================
+   Contact Card
+========================= */
 
 .contact-box {
     display: inline-block;
-    margin-top: 40px;
-    padding: 18px 36px;
-    border: 1px solid rgba(255,255,255,0.18);
+    padding: 20px 42px;
+    border: 1px solid rgba(255,255,255,.15);
     border-radius: 14px;
-    background: rgba(255,255,255,0.04);
-    backdrop-filter: blur(8px);
+    background: rgba(255,255,255,.04);
+    backdrop-filter: blur(10px);
     transition: all .25s ease;
 }
 
 .contact-box:hover {
-    background: rgba(255,255,255,0.08);
-    border-color: rgba(255,255,255,0.35);
+    background: rgba(255,255,255,.07);
+    border-color: rgba(212,175,55,.45);
+    transform: translateY(-2px);
 }
 
 .contact-title {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     text-transform: uppercase;
-    letter-spacing: 0.25em;
+    letter-spacing: .30em;
     color: #9aa4b2;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .contact-email {
     color: #ffffff;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     font-weight: 600;
-    letter-spacing: 0.02em;
+    letter-spacing: .02em;
+    transition: color .2s ease;
 }
 
 .contact-email:hover {
     color: #d4af37;
 }
 
-/* Smooth Fade-in */
-.content {
-    animation: fadeIn 0.8s ease;
-}
+/* =========================
+   Fade In
+========================= */
 
 @keyframes fadeIn {
+
     from {
         opacity: 0;
         transform: translateY(12px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
     }
+
 }
